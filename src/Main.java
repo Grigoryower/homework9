@@ -11,5 +11,6 @@ public class Main {
         System.out.println("Дата издания книги - " + deathworld.getAge());
         deathworld.setAge(1962);
         System.out.println("Дата издания книги - " + deathworld.getAge());
+        //
     }
 }
