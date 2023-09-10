@@ -1,18 +1,21 @@
 public class Book {
-    String name;
+    private Author author;
+   private String name;
     int age;
 
-    public Book(String name, int age) {
+    public Book (String name, int age, Author author) {
         this.name = name;
-        this.age = age;}
-    //public  Book(String name, int age) {
-     //  Book book = new Book("Неукротимая планета", 1960);
-      //  book.name = name;
-      //  book.age = age;
-       // return book;}
+        this.age = age;
+        this.author = author;}
+    // public Author getAuthor() {
+    //   return this.author;
+   //  }
+
     public String getName() {
         return this.name;
     }
+
+
 
     public int getAge() {
         return this.age;
